@@ -1072,6 +1072,7 @@ Current runner version: '2.330.0'
 3. Label ควรมี: `self-hosted`, `Windows`, `X64`
 
 ### บันทึกรูปผลการทดลอง
+<img width="1920" height="1020" alt="image" src="https://github.com/user-attachments/assets/74ca654c-8cbe-4a92-9a54-808d3d227123" />
 
 ```
 บันทึกรูปหน้า Runners โดยคัดลอกให้เห็น Account ของ GitHub และ Repository
