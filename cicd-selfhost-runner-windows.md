@@ -1381,8 +1381,7 @@ taskkill /PID <PID> /F
 <details>
 <summary>คำตอบ</summary>
 
-เขียนคำตอบลงในช่องนี้
-
+คือการที่ self-hosted runner ดึงงานจาก GitHub แทนการที่ GitHub ส่งงานมาให้ ข้อดีคือ ปลอดภัยและควบคุมได้ดีกว่า
 </details>
 
 ### 2. ทำไม Pull-based ปลอดภัยกว่า Push-based
@@ -1390,7 +1389,7 @@ taskkill /PID <PID> /F
 <details>
 <summary>คำตอบ</summary>
 
-เขียนคำตอบลงในช่องนี้
+เพราะเครื่อง runner ควบคุมการดึงข้อมูลจาก GitHub ไม่ให้ข้อมูลที่อันตราย "push" เข้ามาเอง
 
 </details>
 
@@ -1399,8 +1398,7 @@ taskkill /PID <PID> /F
 <details>
 <summary>คำตอบ</summary>
 
-เขียนคำตอบลงในช่องนี้
-
+npm ci ติดตั้ง dependencies ตาม package-lock.json ช่วยให้การติดตั้งเร็วและแม่นยำ ไม่มีการเปลี่ยนแปลง dependencies
 </details>
 
 ### 4. ทำไมห้ามใช้ Self-Hosted Runner กับ Public Repository
@@ -1408,7 +1406,7 @@ taskkill /PID <PID> /F
 <details>
 <summary>คำตอบ</summary>
 
-เขียนคำตอบลงในช่องนี้
+เพราะ ความเสี่ยงด้านความปลอดภัย เนื่องจาก public repository เข้าถึงได้จากทุกคน
 
 </details>
 
@@ -1417,7 +1415,7 @@ taskkill /PID <PID> /F
 <details>
 <summary>คำตอบ</summary>
 
-เขียนคำตอบลงในช่องนี้
+Nginx คือเว็บเซิร์ฟเวอร์ที่ทำหน้าที่ reverse proxy เพื่อส่งคำขอไปยัง backend server, ช่วยเพิ่มความปลอดภัยและทำ load balancing
 
 </details>
 
@@ -1426,7 +1424,7 @@ taskkill /PID <PID> /F
 <details>
 <summary>คำตอบ</summary>
 
-เขียนคำตอบลงในช่องนี้
+ระบบคำสั่งและการจัดการไฟล์ต่างกัน, Linux รองรับการใช้งาน Docker และจัดการกับการทำงานอัตโนมัติได้ดีกว่า
 
 </details>
 
